@@ -1,0 +1,180 @@
+h1 {
+    text-align: center;
+}
+
+.length{
+    text-align: center;
+    background-color: rgb(213, 210, 210);
+}
+#fromUnit{
+    margin-left: 30px;
+    font-size: 15px;
+    width: 10%;
+}
+
+#inputValue{
+    margin-left:10px;
+    font-size: 15px;
+    padding: 2px;
+
+}
+#toUnit{
+    margin-left: 48px;
+    font-size: 15px;
+    width: 10%;
+}
+.area{
+    text-align: center;
+    background-color: rgb(213, 210, 210); 
+}
+#InputValue{
+    margin-left:10px;
+    font-size: 15px;
+    padding: 2px; 
+}
+#FromUnit{
+    margin-left: 30px;
+    font-size: 15px;
+    width: 10%;
+}
+#ToUnit{
+    margin-left: 48px;
+    font-size: 15px;
+    width: 10%;
+}
+
+.temp{
+    text-align: center;
+    background-color: rgb(213, 210, 210);
+}
+#inpuTValue{
+    margin-left:10px;
+    font-size: 15px;
+    padding: 2px;
+}
+#fromUniT{
+    margin-left: 30px;
+    font-size: 15px;
+    width: 10%;
+}
+#toUniT{
+    margin-left: 48px;
+    font-size: 15px;
+    width: 10%;
+}
+.weight{
+    text-align: center;
+    background-color: rgb(213, 210, 210);
+}
+#inputValuE{
+    margin-left:10px;
+    font-size: 15px;
+    padding: 2px;
+}
+#froMUnit{
+    margin-left: 30px;
+    font-size: 15px;
+    width: 10%;
+}
+#tOUnit{
+    margin-left: 48px;
+    font-size: 15px;
+    width: 10%;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:380px) and (max-width:480px) {
+    h1 {
+        text-align: center;
+    }
+    
+    .length{
+        text-align: center;
+        background-color: rgb(213, 210, 210);
+    }
+    #fromUnit{
+        margin-left: 30px;
+        font-size: 15px;
+        width: 29%;
+    }
+    
+    #inputValue{
+        margin-left:10px;
+        font-size: 15px;
+        padding: 2px;
+    
+    }
+    #toUnit{
+        margin-left: 48px;
+        font-size: 15px;
+        width: 29%;
+    } 
+    .area{
+        text-align: center;
+        background-color: rgb(213, 210, 210); 
+    }
+    #InputValue{
+        margin-left:10px;
+        font-size: 15px;
+        padding: 2px; 
+    }
+    #FromUnit{
+        margin-left: 30px;
+        font-size: 15px;
+        width: 29%;
+    }
+    #ToUnit{
+        margin-left: 48px;
+        font-size: 15px;
+        width: 29%;
+    }
+
+    .temp{
+        text-align: center;
+        background-color: rgb(213, 210, 210);
+    }
+    #inpuTValue{
+        margin-left:10px;
+        font-size: 15px;
+        padding: 2px;
+    }
+    #fromUniT{
+        margin-left: 30px;
+        font-size: 15px;
+        width: 29%;
+    }
+    #toUniT{
+        margin-left: 48px;
+        font-size: 15px;
+        width: 29%;
+    }
+
+    .weight{
+        text-align: center;
+        background-color: rgb(213, 210, 210);
+    }
+    #inputValuE{
+        margin-left:10px;
+        font-size: 15px;
+        padding: 2px;
+    }
+    #froMUnit{
+        margin-left: 30px;
+        font-size: 15px;
+        width: 29%;
+    }
+    #tOUnit{
+        margin-left: 48px;
+        font-size: 15px;
+        width: 29%;
+    }
+}

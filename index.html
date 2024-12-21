@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversion Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="length">
+    <h1>Length Converter</h1>
+
+    <label for="inputValue">Value:</label>
+    <input type="number" id="inputValue" step="any" oninput="convert()">
+  <br><br>
+  
+    <label for="fromUnit">From:</label>
+    <select id="fromUnit" onchange="convert()">
+      <option value="m">Meter</option>
+      <option value="cm">Centimeter</option>
+      <option value="km">Kilometer</option>
+      <option value="in">Inch</option>
+      <option value="ft">Foot</option>
+      <option value="yd">Yard</option>
+      <option value="mi">Mile</option>
+    </select><br><br>
+  
+    <label for="toUnit">To:</label>
+    <select id="toUnit" onchange="convert()">
+      <option value="m">Meter</option>
+      <option value="cm">Centimeter</option>
+      <option value="km">Kilometer</option>
+      <option value="in">Inch</option>
+      <option value="ft">Foot</option>
+      <option value="yd">Yard</option>
+      <option value="mi">Mile</option>
+    </select><br><br>
+  
+    <p id="result"></p>
+  </div>
+  <div class="area">
+    <h1>Area Converter</h1>
+
+    <label for="InputValue">Value:</label>
+    <input type="number" id="InputValue" step="any" oninput="converts()">
+    <br><br>
+  
+    <label for="FromUnit">From:</label>
+    <select id="FromUnit" onchange="converts()">
+      <option value="sq_m">Square Meter</option>
+      <option value="sq_cm">Square Centimeter</option>
+      <option value="sq_km">Square Kilometer</option>
+      <option value="sq_in">Square Inch</option>
+      <option value="sq_ft">Square Foot</option>
+      <option value="sq_yd">Square Yard</option>
+      <option value="acre">Acre</option>
+      <option value="hectare">Hectare</option>
+    </select><br><br>
+  
+    <label for="ToUnit">To:</label>
+    <select id="ToUnit" onchange="converts()">
+      <option value="sq_m">Square Meter</option>
+      <option value="sq_cm">Square Centimeter</option>
+      <option value="sq_km">Square Kilometer</option>
+      <option value="sq_in">Square Inch</option>
+      <option value="sq_ft">Square Foot</option>
+      <option value="sq_yd">Square Yard</option>
+      <option value="acre">Acre</option>
+      <option value="hectare">Hectare</option>
+    </select><br><br>
+  
+    <p id="results"></p>
+  </div>
+  <div class="temp">
+    <h1>Temperature Converter</h1>
+
+    <label for="inpuTValue">Value:</label>
+    <input type="number" id="inpuTValue" step="any" oninput="converT()">
+    <br><br>
+  
+    <label for="fromUniT">From:</label>
+    <select id="fromUniT" onchange="converT()">
+      <option value="C">Celsius (C)</option>
+      <option value="F">Fahrenheit (F)</option>
+      <option value="K">Kelvin (K)</option>
+    </select><br><br>
+  
+    <label for="toUniT">To:</label>
+    <select id="toUniT" onchange="converT()">
+      <option value="C">Celsius (C)</option>
+      <option value="F">Fahrenheit (F)</option>
+      <option value="K">Kelvin (K)</option>
+    </select><br><br>
+  
+    <p id="resulT"></p>
+  </div>
+  <div class="weight">
+  <h1>Weight Converter</h1>
+
+  <label for="inputValuE">Value:</label>
+  <input type="number" id="inputValuE" step="any" oninput="conVert()">
+  <br><br>
+
+  <label for="froMUnit">From:</label>
+  <select id="froMUnit" onchange="conVert()">
+    <option value="kg">Kilogram</option>
+    <option value="g">Gram</option>
+    <option value="lb">Pound</option>
+    <option value="oz">Ounce</option>
+    <option value="mg">Milligram</option>
+    <option value="tonne">Tonne</option>
+  </select><br><br>
+
+  <label for="tOUnit">To:</label>
+  <select id="tOUnit" onchange="conVert()">
+    <option value="kg">Kilogram</option>
+    <option value="g">Gram</option>
+    <option value="lb">Pound</option>
+    <option value="oz">Ounce</option>
+    <option value="mg">Milligram</option>
+    <option value="tonne">Tonne</option>
+  </select><br><br>
+
+  <p id="resuLt"></p>
+  </div>
+    <script src="index.js"></script>
+</body>
+</html>
